@@ -11,4 +11,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## PREVIEW
 
-link: 
+link: https://flaviomartinsjr.github.io/Layout-Web-Design/
