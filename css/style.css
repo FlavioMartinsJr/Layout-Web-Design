@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #666;
+    line-height: 1.7;
+}
+a{
+    transition:color .2s linear, border .2s linear;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    color: #49bf9b;
+}
+a:hover{
+    border-bottom-color: transparent;
+}
+p{
+    margin:0 0 2em;
+}
+img{
+    max-width:100%;
+}
+hr{
+    border: 1.5px solid #c5c5c5;
+    border-radius: 30px;
+    margin-top: 60px;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #787878;
+    font-weight: normal;
+    margin: 1em 0;
+}
+h1{
+    font-size: 34px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 26px;
+}
+h4{
+    font-size: 22px;
+}
+h5{
+    font-size: 18px;
+}
+h6{
+    font-size: 14px;
+}
+sub, sup{
+    font-size:12px;
+}
+blockquote{
+    border-left: 5px solid #efefef;
+    margin: 2em 0;
+    padding: .5em 0 .5em 1.5em ;
+}
+code{
+    font-size: .9em;
+    padding: 0.25em 0.65em;
+    background:#f7f7f7;
+    border-radius: .35em;
+    border: 2px solid #efefef;
+    font-family: 'Courier New', Courier, monospace;
+    color: #929292;
+}
+pre code{
+    display:block;
+}
+ul, ol{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 1.1em;
+}
+li{
+    padding-left: .5em;
+}
+.ul-alternate{
+    list-style-type: none;
+    padding-left:0;
+}
+.ul-alternate li{
+    border-bottom: 2px solid #d8d8d8;
+    padding-left:0;
+}
+.ul-alternate li:last-child{
+    border: 0;
+}
+.ul-icons{
+    list-style-type: none;
+    padding-left:0;
+}
+.ul-icons li{
+    display: inline-block;
+    font-size: 1.5em;
+    color: #49bf9b;
+}
+input, label, textarea, select{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+input,textarea,select{
+    background: #eee;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 3px solid transparent;
+}
+input[type="radio"], input[type="checkbox"]{
+    width: auto;
+}
+input:focus, textarea:focus, select:focus{
+    border: 3px solid #49bf9b;
+    outline: none;
+}
+textarea{
+    height: 10em;
+}
+.button-default{
+    background-color: #49bf9b;
+    border: 3px solid #49bf9b;
+    color:white;
+    padding:.75em 1.5em;
+    border-radius: 5px;
+    font-size: .8em;
+    display:inline-block;
+    width: auto;
+    transition: all .7s;
+    cursor: pointer;
+}
+.button-default:hover{
+    background-color: #5ddeb9;
+    border-color: transparent;
+}
+.button-default-stroke{
+    background-color: white;
+    border-color: #efefef;
+    color: inherit;
+}
+.button-default-stroke:hover{
+    color: #49bf9b;
+    border-color: #49bf9b;
+    background-color: white;
+}
+.button-default-small{
+    font-size: .6em;
+}
+.button-default-big{
+    font-size: 1em;
+}
+.button-default-full{
+    text-align: center;
+    display: block;
+}
+.button-ajustes-col-1 a{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.button-ajustes-col-2 a{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.button-ajustes-col-2 a:last-child{
+    margin-top: 40px;
+}
+.ajuste{
+    margin-top: 40px;
+}
+.separar-button{
+    margin-top: 20px;
+}
+.espaco-button{
+    margin-left: 15px;
+}
+.imagem-link{
+    border: 0;
+}
+.table{
+    width: 100%;
+    margin: 0 0 2em 0;
+    border-collapse: collapse;
+    text-align:left;
+}
+.table td{
+    padding:.75em;
+}
+.table th{
+    background: #cccccc67;
+    padding:.75em;
+}
+.table tbody tr td {
+    border-bottom: 1px solid #ccc ;
+}
+.table tbody tr:first-child td{
+    border-top: 2px solid #dadada;
+}
+.table tbody tr:last-child td{
+    border-bottom: 2px solid #dadada;
+}
+.table tbody tr:nth-child(even) td{
+    background: #eee;
+}
+.table-alternate tbody td , .table-alternate tbody tr:first-child td, .table-alternate tbody tr:last-child td{
+    border: 1px solid #ddd;
+}
+.main-header{
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    box-sizing: border-box;
+    width: 35%;
+    left: 0px;
+    padding: 124px 54px 72px;
+    background-image: url(../images/overlay.png), url(../images/bg.jpg);
+    background-position: left top;
+    background-size: auto, cover;
+    text-align: right;
+}
+.main-header-title{
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, .5);
+    font-weight:normal;
+}
+.main-header-title strong{
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+.main-header-link{
+    color: inherit;
+}
+.main-header-link:hover{
+    color: #49bf9b;
+}
+.main-content{
+    box-sizing: border-box;
+    width: 65%;
+    margin-left: 35%;
+    padding: 124px 54px 72px;
+}
+.main-header-link img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img-left{
+    float: left;
+    margin-right: 20px;
+}
+.img-right{
+    float: right;
+    margin-left: 20px;
+}
+.text-footer{
+    text-align: justify;
+}
+.recent-works-card img{
+    border-radius: 5px;
+    overflow: hidden;
+}
+.recent-works-card p{
+    font-size: 12px;
+}
+.gallery-img img{
+    width: 100%;
+}
+.gallery-thumb img, .gallery-img img{
+    margin-bottom: 2%;
+    display: inline-block;
+    border-radius: 5px;
+}
+.main-footer{
+    display: inline-block;
+    position: fixed;
+    bottom: 0px;
+    width: 35%;
+    left: 0;
+    padding: 0px 54px 72px 0;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 15px;
+}
+.main-footer a{
+    border: none;
+    color: rgb(143, 143, 143);
+}
+.radio-fomart{
+    display: flex;
+    text-align: center;
+}
+.checkbox-format input, .checkbox-format{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.checkbox-format input{
+    margin-right: 5px;
+}
+.row{
+    overflow: auto;
+}
+.col{
+    width: 48.5%;
+    float: left;
+}
+.col:first-child{
+    margin-right: 1.5%;
+}
+.col:last-child{
+    margin-left: 1.5%;
+}
+.col-2-3{
+    width: 66%;
+    float: left;
+}
+.col-1-3{
+    width: 32%;
+    float: left;
+}
+.col-1-3:nth-child(3n-2){
+    margin-right: 2%;
+}
+.col-1-3:nth-child(3n){
+    margin-left: 2%;
+}
+.col-2-3 + .col-1-3, .col-1-3 + .col-2-3{
+    margin-left: 2%;
+}
