@@ -1,6 +1,7 @@
-<h1 align="center">Layout Web Design
-<p align="center">🚀 Projeto feito para praticar fundamentos de web design para auxiliar no desenvolvimento front end</p>
-</h1>
+<div align="center">
+<h1>Layout Web Design</h1>
+<p>🚀 Projeto feito para praticar fundamentos de web design para auxiliar no desenvolvimento front end</p>
+</div>
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
